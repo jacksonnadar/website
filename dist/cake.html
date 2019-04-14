@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>cake123</title>
+	<link rel="stylesheet" href="css/cakestyle.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+</head>
+<body>
+	<div class="grid">
+ <div class="header">
+<div class="wrap">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              <img src="img/logo.png">
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+              <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script></div></div>
+ <div class="sidebar">
+ 	<div class="sidebar1"><ul class="cd-gallery">
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<!--<li class="move-right" data-sale="true" data-price="$22">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>-->
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Mountains</a></b>
+
+				<em class="cd-price">₹26</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Baseball Cap</a></b>
+
+				<em class="cd-price">$42</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Messenger Bag</a></b>
+
+				<em class="cd-price">$235</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right" data-sale="true" data-price="$22">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Mountains</a></b>
+
+				<em class="cd-price">$26</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Baseball Cap</a></b>
+
+				<em class="cd-price">$42</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Messenger Bag</a></b>
+
+				<em class="cd-price">$235</em>
+			</div> <!-- cd-item-info -->
+		</li>
+	</ul> <!-- cd-gallery --></div>
+	<div class="sidebar2"><ul class="cd-gallery">
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right" data-sale="true" data-price="$22">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Mountains</a></b>
+
+				<em class="cd-price">$26</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Baseball Cap</a></b>
+
+				<em class="cd-price">$42</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Messenger Bag</a></b>
+
+				<em class="cd-price">$235</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right" data-sale="true" data-price="$22">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Mountains</a></b>
+
+				<em class="cd-price">$26</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Baseball Cap</a></b>
+
+				<em class="cd-price">$42</em>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/angle1.jpg" alt="Preview image">
+					</li>
+
+					<li class="move-right">
+						<img src="img/angle2.jpg" alt="Preview image">
+					</li>
+
+					<li>
+						<img src="img/angle3.jpg" alt="Preview image">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#0">Messenger Bag</a></b>
+
+				<em class="cd-price">$235</em>
+			</div> <!-- cd-item-info -->
+		</li>
+	</ul> <!-- cd-gallery --></div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery --></div>
+<div class="img-slider"><!-- wrapperAll -->
+  <section class="wrapperAll">
+    <section class="wrapper">
+      <h1>NEW CAKES</h1>
+      <a class="buttonLine" href="#">SEE IN FULL PAGE</a>
+    </section>
+
+    <!-- 
+    This section will prevent bugs : it hide overflowing content.
+    The section is in position:relative; that way, buttons will be attach more easily.
+     -->
+    <section class="sliderComplete">
+      <!-- 
+      The wrapper provides a good implementation of the code in responsive design.
+      "Latest Albums" and the slider are aligned with the wrapper.
+       -->
+      <!-- Wrapper -->
+      <section class="wrapper">
+        <!-- ".slider" has a width greater than 100% to give way to all albums to align.  -->
+        <ul class="slider">
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake1.jpg" />
+            </a>
+            <p><a href="#">EXO - 'MAMA' Mix</a> - Date</p>
+            <p><a href="#">BMixer</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake2.jpg" />
+            </a>
+            <p><a href="#">Galaxy Supernova</a> - Date</p>
+            <p><a href="#">GG</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake7.jpg" />
+            </a>
+            <p><a href="#">2nd Album</a> - Date</p>
+            <p><a href="#">Boyfriend</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake4.jpg" />
+            </a>
+            <p><a href="#">3</a> - Date</p>
+            <p><a href="#">Indochine</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake4.jpg" />
+            </a>
+            <p><a href="#">Nadiya</a> - Date</p>
+            <p><a href="#">Nadiya</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake8.jpg" />
+            </a>
+            <p><a href="#">Objection (Tango)</a> - Date</p>
+            <p><a href="#">Shakira</a></p>
+          </li>
+        </ul>
+      </section>
+      <!-- End wrapper -->
+
+      <!-- 
+      The buttons on the outside of the section are crucial to be connected in position:absolute; to .sliderComplete.
+       -->
+
+      <!-- 
+      The class "close" allows the button to be invisible without loading jQuery.
+      The layout will make it faster to load regardless of the connection.
+       -->
+      <button title="before" class="close">
+        <svg version="1.1" id="left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="12.7 2.5 15.4 25" enable-background="new 12.7 2.5 15.4 25" height="24" xml:space="preserve">
+        <g id="chevron-right">
+          <polygon fill="#38373A" points="13,15 25,27 27.8,24.2 18.6,15 27.8,5.8 25,3   "/>
+        </g>
+        </svg>
+      </button>
+
+      <!-- 
+      ".open" is on display:block; to be visible.
+       -->
+      <button title="after" class="open">
+        <svg version="1.1" id="right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="12.7 2.5 15.4 25" enable-background="new 12.7 2.5 15.4 25" height="24" xml:space="preserve">
+        <g id="chevron-right">
+          <polygon fill="#38373A" points="15.8,3 13,5.8 22.2,15 13,24.2 15.8,27 27.8,15   "/>
+        </g>
+        </svg>
+      </button>
+    </section>
+    <!-- End sliderComplete -->
+  </section>
+  <!-- End wrapperAll -->
+    </section>
+<div class="cake-slider2">
+    <!-- 
+    This section will prevent bugs : it hide overflowing content.
+    The section is in position:relative; that way, buttons will be attach more easily.
+     -->
+    <section class="sliderComplete">
+      <!-- 
+      The wrapper provides a good implementation of the code in responsive design.
+      "Latest Albums" and the slider are aligned with the wrapper.
+       -->
+      <!-- Wrapper -->
+      <section class="wrapper">
+        <!-- ".slider" has a width greater than 100% to give way to all albums to align.  -->
+        <ul class="slider">
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake1.jpg" />
+            </a>
+            <p><a href="#">EXO - 'MAMA' Mix</a> - Date</p>
+            <p><a href="#">BMixer</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake2.jpg" />
+            </a>
+            <p><a href="#">Galaxy Supernova</a> - Date</p>
+            <p><a href="#">GG</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake7.jpg" />
+            </a>
+            <p><a href="#">2nd Album</a> - Date</p>
+            <p><a href="#">Boyfriend</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake4.jpg" />
+            </a>
+            <p><a href="#">3</a> - Date</p>
+            <p><a href="#">Indochine</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake4.jpg" />
+            </a>
+            <p><a href="#">Nadiya</a> - Date</p>
+            <p><a href="#">Nadiya</a></p>
+          </li>
+          <li>
+            <a href="#" class="cover">
+              <img src="img/cake8.jpg" />
+            </a>
+            <p><a href="#">Objection (Tango)</a> - Date</p>
+            <p><a href="#">Shakira</a></p>
+          </li>
+        </ul>
+      </section>
+      <!-- End wrapper -->
+
+      <!-- 
+      The buttons on the outside of the section are crucial to be connected in position:absolute; to .sliderComplete.
+       -->
+
+      <!-- 
+      The class "close" allows the button to be invisible without loading jQuery.
+      The layout will make it faster to load regardless of the connection.
+       -->
+      <button title="before" class="close">
+        <svg version="1.1" id="left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="12.7 2.5 15.4 25" enable-background="new 12.7 2.5 15.4 25" height="24" xml:space="preserve">
+        <g id="chevron-right">
+          <polygon fill="#38373A" points="13,15 25,27 27.8,24.2 18.6,15 27.8,5.8 25,3   "/>
+        </g>
+        </svg>
+      </button>
+
+      <!-- 
+      ".open" is on display:block; to be visible.
+       -->
+      <button title="after" class="open">
+        <svg version="1.1" id="right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="12.7 2.5 15.4 25" enable-background="new 12.7 2.5 15.4 25" height="24" xml:space="preserve">
+        <g id="chevron-right">
+          <polygon fill="#38373A" points="15.8,3 13,5.8 22.2,15 13,24.2 15.8,27 27.8,15   "/>
+        </g>
+        </svg>
+      </button>
+    </section>
+    <!-- End sliderComplete -->
+  </section>
+<!-- End wrapperAll -->
+  </div>
+  <script type="text/javascript">$(document).ready(function() {
+  $('button').click(function() {
+    $(this).parents('.sliderComplete').children('button').removeClass('close').fadeIn(300);
+
+    // The button, that was visible, goes on display none.
+    $(this).addClass('close').fadeOut(300);
+
+    // We do a fluid slider with the class '.turn'.
+    $(this).parents('.sliderComplete').children('.wrapper').children('.slider').toggleClass('turn');
+  });
+});</script></div>
+ <div class="info">3</div>
+ <div class="footer"><!-- FOOTER START -->
+	<div class="footer">
+		<div class="contain">
+		<div class="col">
+			<h1>Company</h1>
+			<ul>
+				<li>About</li>
+				<li>Mission</li>
+				<li>Services</li>
+				<li>Social</li>
+				<li>Get in touch</li>
+			</ul>
+		</div>
+		<div class="col">
+			<h1>Products</h1>
+			<ul>
+				<li>About</li>
+				<li>Mission</li>
+				<li>Services</li>
+				<li>Social</li>
+				<li>Get in touch</li>
+			</ul>
+		</div>
+		<div class="col">
+			<h1>Accounts</h1>
+			<ul>
+				<li>About</li>
+				<li>Mission</li>
+				<li>Services</li>
+				<li>Social</li>
+				<li>Get in touch</li>
+			</ul>
+		</div>
+		<div class="col">
+			<h1>Resources</h1>
+			<ul>
+				<li>Webmail</li>
+				<li>Redeem code</li>
+				<li>WHOIS lookup</li>
+				<li>Site map</li>
+				<li>Web templates</li>
+				<li>Email templates</li>
+			</ul>
+		</div>
+		<div class="col">
+			<h1>Support</h1>
+			<ul>
+				<li>Contact us</li>
+				<li>Web chat</li>
+				<li>Open ticket</li>
+			</ul>
+		</div>
+		<div class="col social">
+			<h1>Social</h1>
+			<ul>
+				<li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+				<li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+				<li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+			</ul>
+		</div>
+	<div class="clearfix"></div>
+	</div>
+	</div>
+	<!-- END OF FOOTER -->
+				</div>
+							</div>
+				</div></div>
+</div>
+
+</body>
+</html>
